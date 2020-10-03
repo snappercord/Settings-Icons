@@ -179,6 +179,10 @@
 	--icon: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/emojiutility-PLUGIN.svg);
 }
 
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ[data-item-id="undertale-dialog-generator"]:before {
+	--icon: url(https://raw.githubusercontent.com/Controlfreak707/undertale-dialog-generator/master/icon.svg);
+}
+
 
 /* Extras Panel */
 .platform-win .layer-3QrUeG[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-last-child(9):before {
