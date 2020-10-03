@@ -23,6 +23,7 @@
 .sidebar-CFHs9e .ui-tab-bar-item:before,
 .sidebar-CFHs9e .item-PXvHYJ:before {
 	content: '';
+	position: relative;
 	width: 24px;
 	height: 24px;
 	left: 15px;
