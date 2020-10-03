@@ -1,0 +1,212 @@
+/* this code was inspired by https://xcruxiex.github.io/, i edited the code and made it powercord friendly*/
+
+.sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item, [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ {
+	padding-left: 50px !important
+}
+
+.sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:before, [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:before {
+	content: "";
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 15px;
+	margin-top: -2px
+}
+
+/* User Settings */
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(2):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/My%20Account.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(3):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Privacy%20%26%20Saftey.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(4):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Authorized%20Apps.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(5):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Connections.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(6):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Billing.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(8):before {
+		-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Subscriptions.svg)center/contain no-repeat;
+		background:#80A6FF !important;
+}
+
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(9):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Gift%20Inventory.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(10):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Server%20Boost.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(11):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/HypeSquad.svg)center/contain no-repeat;
+	background:#FBB848 !important;
+    background-size: cover;
+}
+
+/* App Settings */
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(14):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Voice%20%26%20Video.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(15):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Overlay.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(16):before,
+.platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(15):before,
+.platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(15):before,
+.platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(15):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Notifications.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(17):before,
+.platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(16):before,
+.platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(16):before,
+.platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(16):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Keybinds.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(18):before,
+.platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(17):before,
+.platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(17):before,
+.platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(17):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Game%20Activity.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(19):before,
+.platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(19):before,
+.platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(18):before,
+.platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(18):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Text%20%26%20Images.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(20):before,
+.platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(20):before,
+.platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(19):before,
+.platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(19):before {
+    -webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Appearance.svg) center/contain no-repeat;
+background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(21):before,
+.platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(21):before,
+.platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(20):before,
+.platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(20):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Streamer%20Mode.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(22):before,
+.platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(22):before,
+.platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(21):before,
+.platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(21):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Language.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(23):before,
+.platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(22):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Windows%20Settings.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+
+/* Powercord */
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(26):before,
+.platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(25):before,
+.platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(25):before,
+.platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(24):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/General%20Settings.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(27):before,
+.platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(26):before,
+.platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(26):before,
+.platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(25):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Plugins.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(28):before,
+.platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(27):before,
+.platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(27):before,
+.platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(26):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Themes.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(29):before,
+.platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(28):before,
+.platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(28):before,
+.platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(27):before {
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Updater.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+
+
+/* pc plugins*/
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:before{
+	background-image: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Powercord%20Plug.svg)
+}
+	.platform-win [data-item-id="pc-clickableEdits"]:before{
+		-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/clickableedits-PLUGIN.svg)center/contain no-repeat;
+	background:#fff;
+}
+.platform-win [data-item-id="pc-spotify"]:before{
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/spotify-PLUGIN.svg)center/contain no-repeat;
+background:#fff;
+}
+.platform-win [data-item-id="pc-emojiUtility"]:before{
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/emojiutility-PLUGIN.svg)center/contain no-repeat;
+background:#fff;
+}
+/*extra panel*/
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-last-child(9):before{
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Change%20Log.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-last-child(8):before{
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Powercord%20Labs.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-last-child(7):before{
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Experiments.svg)center/contain no-repeat;
+	background:#fff;
+}
+
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-last-child(6):before{
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Develpoer%20Options.svg)center/contain no-repeat;
+	background:#fff;
+}
+.platform-win [style*="240, 71, 71"]:before{
+	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Log%20Out.svg)center/contain no-repeat;
+	background:#F04747 !important;
+}
