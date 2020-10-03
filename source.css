@@ -26,6 +26,7 @@
 	width: 24px;
 	height: 24px;
 	margin-right: 6px;
+	margin-top: -2px;
 	background: var(--settings-icon-color);
 	-webkit-mask: var(--icon) center/contain no-repeat;
 	mask: var(--icon) center/contain no-repeat;
