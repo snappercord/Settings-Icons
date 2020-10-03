@@ -207,3 +207,7 @@
     --icon: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Log%20Out.svg);
     --settings-icon-color: #F04747 !important;
 }
+
+.platform-win [data-item-id="undertale-dialog-generator"]:before{
+    -webkit-mask: url(https://raw.githubusercontent.com/Controlfreak707/undertale-dialog-generator/master/icon.svg)center/contain no-repeat;
+background:#fff;
