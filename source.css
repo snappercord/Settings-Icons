@@ -161,6 +161,10 @@
 	--icon: url(https://raw.githubusercontent.com/Controlfreak707/dice-command/master/icon.svg);
 }
 
+.sidebar-CFHs9e .item-PXvHYJ[data-item-id="relaunch"]:before {
+	--icon: url(https://raw.githubusercontent.com/Controlfreak707/relaunch/master/icon.svg);
+}
+
 
 /* Extras Panel */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="changelog"]:before {
