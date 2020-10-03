@@ -30,6 +30,7 @@
 	-webkit-mask: var(--icon) center/contain no-repeat;
 	mask: var(--icon) center/contain no-repeat;
 	--icon: url('https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Powercord%20Plug.svg');
+	flex-shrink:0;
 }
 
 
