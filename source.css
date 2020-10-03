@@ -60,6 +60,11 @@
 	--settings-icon-color: #80A6FF;
 }
 
+.sidebar-CFHs9e .item-PXvHYJ[data-item-id="DiscordNitro"][style*="color: rgb(255, 255, 255)"]:before {
+	--icon: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Subscriptions.svg);
+	--settings-icon-color: #fff;
+}
+
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="LibraryInventory"]:before {
 	--icon: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/Gift%20Inventory.svg);
 }
