@@ -14,13 +14,13 @@
 }
 
 
-.sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item,
+.sidebar-CFHs9e .ui-tab-bar-item,
 .sidebar-CFHs9e .item-PXvHYJ {
 	display: flex;
 	align-items: center;
 }
 
-.sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:before,
+.sidebar-CFHs9e .ui-tab-bar-item:before,
 .sidebar-CFHs9e .item-PXvHYJ:before {
 	content: '';
 	width: 24px;
@@ -149,10 +149,12 @@
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="undertale-dialog-generator"]:before {
 	--icon: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/undertaledialogue-PLUGIN.svg);
+	flex-shrink:0;
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="bdCompat"]:before {
 	--icon: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/bdcompact-PLUGIN.svg);
+
 }
 
 
