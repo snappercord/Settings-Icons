@@ -184,6 +184,7 @@ background:#fff;
 .platform-win [data-item-id="pc-emojiUtility"]:before{
 	-webkit-mask: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/emojiutility-PLUGIN.svg)center/contain no-repeat;
 background:#fff;
+}
 .platform-win [data-item-id="undertale-dialog-generator"]:before{
 	-webkit-mask: url(https://raw.githubusercontent.com/Controlfreak707/undertale-dialog-generator/master/icon.svg)center/contain no-repeat;
 background:#fff;
