@@ -25,6 +25,7 @@
 	content: '';
 	width: 24px;
 	height: 24px;
+	left: 15px;
 	margin-right: 6px;
 	margin-top: -2px;
 	background: var(--settings-icon-color);
