@@ -154,7 +154,10 @@
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="bdCompat"]:before {
 	--icon: url(https://raw.githubusercontent.com/Snapperito/CSS-Snippets/main/icons/bdcompact-PLUGIN.svg);
+}
 
+.sidebar-CFHs9e .item-PXvHYJ[data-item-id="dice-command"]:before {
+	--icon: url(https://raw.githubusercontent.com/Controlfreak707/dice-command/master/icon.svg);
 }
 
 
