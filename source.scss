@@ -31,137 +31,137 @@
 	background: var(--settings-icon-color);
 	-webkit-mask: var(--icon) center/contain no-repeat;
 	mask: var(--icon) center/contain no-repeat;
-	--icon: svg('Powercord Plug.svg');
+	--icon: svg('icons/Powercord Plug.svg');
 	flex-shrink:0;
 }
 
 
 /* User Settings */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="MyAccount"]:before {
-	--icon: svg('My Account.svg');
+	--icon: svg('icons/My Account.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="PrivacynSafety"]:before {
-	--icon: svg('Privacy & Saftey.svg');
+	--icon: svg('icons/Privacy & Saftey.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="AuthorizedApps"]:before {
-	--icon: svg('Authorized Apps.svg');
+	--icon: svg('icons/Authorized Apps.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Connections"]:before {
-	--icon: svg('Connections.svg');
+	--icon: svg('icons/Connections.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Billing"]:before {
-	--icon: svg('Billing.svg');
+	--icon: svg('icons/Billing.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="DiscordNitro"]:before {
-	--icon: svg('Subscriptions.svg');
+	--icon: svg('icons/Subscriptions.svg');
 	--settings-icon-color: #80A6FF;
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="DiscordNitro"][style*="color: rgb(255, 255, 255)"]:before {
-	--icon: svg('Subscriptions.svg');
+	--icon: svg('icons/Subscriptions.svg');
 	--settings-icon-color: #fff;
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="LibraryInventory"]:before {
-	--icon: svg('Gift Inventory.svg');
+	--icon: svg('icons/Gift Inventory.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="NitroServerBoost"]:before {
-	--icon: svg('Server Boost.svg');
+	--icon: svg('icons/Server Boost.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="HypesquadOnline"]:before {
-	--icon: svg('HypeSquad.svg');
+	--icon: svg('icons/HypeSquad.svg');
 	--settings-icon-color: #FBB848;
 }
 
 
 /* App Settings */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="VoicenVideo"]:before {
-	--icon: svg('Voice %26 Video.svg');
+	--icon: svg('icons/Voice %26 Video.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Overlay"]:before {
-	--icon: svg('Overlay.svg');
+	--icon: svg('icons/Overlay.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Notifications"]:before {
-	--icon: svg('Notifications.svg');
+	--icon: svg('icons/Notifications.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Keybinds"]:before {
-	--icon: svg('Keybinds.svg');
+	--icon: svg('icons/Keybinds.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="GameActivity"]:before {
-	--icon: svg('Game Activity.svg');
+	--icon: svg('icons/Game Activity.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="TextnImages"]:before {
-	--icon: svg('Text %26 Images.svg');
+	--icon: svg('icons/Text %26 Images.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Appearance"]:before {
-	--icon: svg('Appearance.svg');
+	--icon: svg('icons/Appearance.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="StreamerMode"]:before {
-	--icon: svg('Streamer Mode.svg');
+	--icon: svg('icons/Streamer Mode.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Language"]:before {
-	--icon: svg('Language.svg');
+	--icon: svg('icons/Language.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Linux"]:before,
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Windows"]:before {
-	--icon: svg('Windows Settings.svg');
+	--icon: svg('icons/Windows Settings.svg');
 }
 
 
 /* Powercord */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-general"]:before {
-	--icon: svg('General Settings.svg');
+	--icon: svg('icons/General Settings.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-moduleManager-plugins"]:before {
-	--icon: svg('Plugins.svg');
+	--icon: svg('icons/Plugins.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-moduleManager-themes"]:before {
-	--icon: svg('Themes.svg');
+	--icon: svg('icons/Themes.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-updater"]:before {
-	--icon: svg('Updater.svg');
+	--icon: svg('icons/Updater.svg');
 }
 
 
 /* Powercord Plugins */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-clickableEdits"]:before {
-	--icon: svg('clickableedits-PLUGIN.svg');
+	--icon: svg('icons/clickableedits-PLUGIN.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-spotify"]:before {
-	--icon: svg('spotify-PLUGIN.svg');
+	--icon: svg('icons/spotify-PLUGIN.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-emojiUtility"]:before {
-	--icon: svg('emojiutility-PLUGIN.svg');
+	--icon: svg('icons/emojiutility-PLUGIN.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="undertale-dialog-generator"]:before {
-	--icon: svg('undertaledialogue-PLUGIN.svg');
+	--icon: svg('icons/undertaledialogue-PLUGIN.svg');
 	flex-shrink:0;
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="bdCompat"]:before {
-	--icon: svg('bdcompat-PLUGIN.svg');
+	--icon: svg('icons/bdcompat-PLUGIN.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="dice-command"]:before {
@@ -175,24 +175,24 @@
 
 /* Extras Panel */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="changelog"]:before {
-	--icon: svg('Change Log.svg');
+	--icon: svg('icons/Change Log.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-labs"]:before {
-	--icon: svg('Powercord Labs.svg');
+	--icon: svg('icons/Powercord Labs.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Experiments"]:before {
-	--icon: svg('Experiments.svg');
+	--icon: svg('icons/Experiments.svg');
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="DeveloperOptions"]:before {
-	--icon: svg('Develpoer Options.svg');
+	--icon: svg('icons/Develpoer Options.svg');
 }
 
 
 /* Logout */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="logout"]:before {
-    --icon: svg('Log Out.svg');
+    --icon: svg('icons/Log Out.svg');
     --settings-icon-color: #F04747;
 }
