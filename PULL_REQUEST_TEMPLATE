@@ -1,1 +1,12 @@
+Icon Rules:
 
+- Format: SVG/Vector image (don't cheat; use an actual one, not a bitmap fill)
+- Size: 18x18 (if non square icon center then flatten on a square and fix the fill)
+- Fill: mono color, transparency
+- Detail: keep detail low, preferably use something from font awesome or nova. 
+- Unique: make sure it isn't the same icon as any other plugin or built-in setting.
+
+Resources:
+https://figma.com (vector editing webapp)
+inkscape (vector editing program)
+https://png2svg.com (Bitmap to Vector rasterizer)
