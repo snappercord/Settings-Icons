@@ -1,0 +1,46 @@
+.side-8zPYf6 > .item-PXvHYJ {
+    /* User Settings */
+    &[data-item-id="MyAccount"]:before {        --icon: #{svg('./icons/default/account.svg')}; }
+
+    &[data-item-id="PrivacynSafety"]:before {   --icon: #{svg('./icons/default/privacy-saftey.svg')}; }
+
+    &[data-item-id="AuthorizedApps"]:before {   --icon: #{svg('./icons/default/authorized-apps.svg')}; }
+    
+    &[data-item-id="Connections"]:before {      --icon: #{svg('./icons/default/connections.svg')}; }
+
+    &[data-item-id="Billing"]:before {          --icon: #{svg('./icons/default/billing.svg')}; }
+
+    /* Extra user settings */
+    &[data-item-id="DiscordNitro"]:before {     --icon: #{svg('./icons/default/subscriptions.svg')}; --settings-icon-color: var(--settings-subscriptions); }
+
+    &[data-item-id="LibraryInventory"]:before { --icon: #{svg('./icons/default/gift-inventory.svg')}; }
+
+    &[data-item-id="NitroServerBoost"]:before { --icon: #{svg('./icons/default/server-boost.svg')}; }
+
+    &[data-item-id="HypesquadOnline"]:before {  --icon: #{svg('./icons/default/hypesquad.svg')};     --settings-icon-color: var(--settings-hypesquad); }
+
+    /* App settings */
+    &[data-item-id="VoicenVideo"]:before {      --icon: #{svg('./icons/default/voice-video.svg')}; }
+
+    &[data-item-id="Overlay"]:before {          --icon: #{svg('./icons/default/overlay.svg')}; }
+
+    &[data-item-id="Notifications"]:before {    --icon: #{svg('./icons/default/notifications.svg')}; }
+
+    &[data-item-id="Keybinds"]:before {         --icon: #{svg('./icons/default/keybinds.svg')}; }
+
+    &[data-item-id="GameActivity"]:before {     --icon: #{svg('./icons/default/game-activity.svg')}; }
+
+    &[data-item-id="TextnImages"]:before {      --icon: #{svg('./icons/default/text-images.svg')}; }
+
+    &[data-item-id="Appearance"]:before {       --icon: #{svg('./icons/default/appearance.svg')}; }
+
+    &[data-item-id="StreamerMode"]:before {     --icon: #{svg('./icons/default/streamer-mode.svg')}; }
+
+    &[data-item-id="Language"]:before {         --icon: #{svg('./icons/default/language.svg')}; }
+
+    &[data-item-id="Linux"]:before,
+    &[data-item-id="Windows"]:before {          --icon: #{svg('./icons/default/os-settings.svg')}; }
+
+    /* Logout */
+    &[data-item-id="logout"]:before {           --icon: #{svg('./icons/default/logout.svg')};        --settings-icon-color: var(--settings-logout); }
+}
