@@ -1,0 +1,49 @@
+.side-8zPYf6 > .item-PXvHYJ {
+    &[data-item-id="pc-clickableEdits"]:before {          --icon: #{svg('./icons/plugin/clickable-edits.svg')}; }
+
+    &[data-item-id="pc-spotify"]:before {                 --icon: #{svg('./icons/plugin/spotify.svg')}; }
+
+    &[data-item-id="pc-emojiUtility"]:before {            --icon: #{svg('./icons/plugin/emojiutility.svg')}; }
+
+    &[data-item-id="undertale-dialog-generator"]:before { --icon: #{svg('./icons/plugin/undertaledialogue.svg')}; }
+
+    &[data-item-id="bdCompat"]:before {                   --icon: #{svg('./icons/plugin/bdcompat.svg')}; }
+
+    &[data-item-id="dice-command"]:before {               --icon: #{svg('./icons/plugin/dice-command.svg')}; }
+
+    &[data-item-id="relaunch"]:before {                   --icon: #{svg('./icons/plugin/relaunch.svg')}; }
+
+    &[data-item-id="ian-settings"]:before {               --icon: #{svg('./icons/plugin/inappnotifs.svg')}; }
+
+    &[data-item-id="alias"]:before {                      --icon: #{svg('./icons/plugin/alias.svg')}; }
+
+    &[data-item-id="game-activity-toggle"]:before {       --icon: #{svg('./icons/plugin/gameactivitytoggle.svg')}; }
+
+    &[data-item-id="itc-settings"]:before {               --icon: #{svg('./icons/plugin/imageclipboard.svg')}; }
+
+    &[data-item-id="JSSnippets"]:before {                 --icon: #{svg('./icons/plugin/js-snippets.svg')}; }
+
+    &[data-item-id="mention-count"]:before {              --icon: #{svg('./icons/plugin/mentioncount.svg')}; }
+
+    &[data-item-id="multitask"]:before {                  --icon: #{svg('./icons/plugin/multitask.svg')}; }
+
+    &[data-item-id="pc-hastebin"]:before {                --icon: #{svg('./icons/plugin/hastebin.svg')}; }
+
+    &[data-item-id="powercord-jingle"]:before {           --icon: #{svg('./icons/plugin/startupsound.svg')}; }
+
+    &[data-item-id="powercord-message-tooltips"]:before { --icon: #{svg('./icons/plugin/messagetooltips.svg')}; }
+
+    &[data-item-id="quick-search"]:before {               --icon: #{svg('./icons/plugin/quicksearch.svg')}; }
+
+    &[data-item-id="smart-typers"]:before {               --icon: #{svg('./icons/plugin/smarttypers.svg')}; }
+
+    &[data-item-id="theme-toggler"]:before {              --icon: #{svg('./icons/plugin/themetoggler.svg')}; }
+
+    &[data-item-id="total-members"]:before {              --icon: #{svg('./icons/plugin/totalmembers.svg')}; }
+
+    &[data-item-id="user-details"]:before {               --icon: #{svg('./icons/plugin/userdetails.svg')}; }
+
+    &[data-item-id="better-quoter"]:before {              --icon: #{svg('./icons/plugin/betterquoter.svg')}; }
+
+    &[data-item-id="bot-tag-settings"]:before {           --icon: #{svg('./icons/plugin/usertags.svg')}; }
+}

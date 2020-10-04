@@ -1,0 +1,16 @@
+.side-8zPYf6 > .item-PXvHYJ {
+    &[data-item-id="pc-general"]:before {               --icon: #{svg('./icons/powercord/general.svg')}; }
+
+    &[data-item-id="pc-moduleManager-plugins"]:before { --icon: #{svg('./icons/powercord/plugins.svg')}; }
+
+    &[data-item-id="pc-moduleManager-themes"]:before {  --icon: #{svg('./icons/powercord/themes.svg')}; }
+
+    &[data-item-id="pc-updater"]:before {               --icon: #{svg('./icons/powercord/updater.svg')}; }
+
+    /* Extras Panel */
+    &[data-item-id="pc-labs"]:before {                  --icon: #{svg('./icons/powercord/labs.svg')}; }
+
+    &[data-item-id="Experiments"]:before {              --icon: #{svg('./icons/powercord/experiments.svg')}; }
+
+    &[data-item-id="DeveloperOptions"]:before {         --icon: #{svg('./icons/powercord/developer.svg')}; }
+}
