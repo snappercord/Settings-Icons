@@ -41,6 +41,9 @@
     &[data-item-id="Linux"]:before,
     &[data-item-id="Windows"]:before {          --icon: #{svg('./icons/default/os-settings.svg')}; }
 
+    /* Extras Panel */
+    &[data-item-id="changelog"]:before {        --icon: #{svg('./icons/powercord/change-log.svg')}; }
+    
     /* Logout */
     &[data-item-id="logout"]:before {           --icon: #{svg('./icons/default/logout.svg')};        --settings-icon-color: var(--settings-logout); }
 }

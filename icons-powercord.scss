@@ -8,8 +8,6 @@
     &[data-item-id="pc-updater"]:before {               --icon: #{svg('./icons/powercord/updater.svg')}; }
 
     /* Extras Panel */
-    &[data-item-id="changelog"]:before {                --icon: #{svg('./icons/powercord/change-log.svg')}; }
-
     &[data-item-id="pc-labs"]:before {                  --icon: #{svg('./icons/powercord/labs.svg')}; }
 
     &[data-item-id="Experiments"]:before {              --icon: #{svg('./icons/powercord/experiments.svg')}; }
