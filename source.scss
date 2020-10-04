@@ -31,137 +31,137 @@
 	background: var(--settings-icon-color);
 	-webkit-mask: var(--icon) center/contain no-repeat;
 	mask: var(--icon) center/contain no-repeat;
-	--icon: svg('icons/Powercord Plug.svg');
+	--icon: #{svg('icons/Powercord Plug.svg')};
 	flex-shrink:0;
 }
 
 
 /* User Settings */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="MyAccount"]:before {
-	--icon: svg('icons/My Account.svg');
+	--icon: #{svg('icons/My Account.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="PrivacynSafety"]:before {
-	--icon: svg('icons/Privacy & Saftey.svg');
+	--icon: #{svg('icons/Privacy & Saftey.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="AuthorizedApps"]:before {
-	--icon: svg('icons/Authorized Apps.svg');
+	--icon: #{svg('icons/Authorized Apps.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Connections"]:before {
-	--icon: svg('icons/Connections.svg');
+	--icon: #{svg('icons/Connections.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Billing"]:before {
-	--icon: svg('icons/Billing.svg');
+	--icon: #{svg('icons/Billing.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="DiscordNitro"]:before {
-	--icon: svg('icons/Subscriptions.svg');
+	--icon: #{svg('icons/Subscriptions.svg')};
 	--settings-icon-color: #80A6FF;
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="DiscordNitro"][style*="color: rgb(255, 255, 255)"]:before {
-	--icon: svg('icons/Subscriptions.svg');
+	--icon: #{svg('icons/Subscriptions.svg')};
 	--settings-icon-color: #fff;
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="LibraryInventory"]:before {
-	--icon: svg('icons/Gift Inventory.svg');
+	--icon: #{svg('icons/Gift Inventory.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="NitroServerBoost"]:before {
-	--icon: svg('icons/Server Boost.svg');
+	--icon: #{svg('icons/Server Boost.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="HypesquadOnline"]:before {
-	--icon: svg('icons/HypeSquad.svg');
+	--icon: #{svg('icons/HypeSquad.svg')};
 	--settings-icon-color: #FBB848;
 }
 
 
 /* App Settings */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="VoicenVideo"]:before {
-	--icon: svg('icons/Voice %26 Video.svg');
+	--icon: #{svg('icons/Voice %26 Video.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Overlay"]:before {
-	--icon: svg('icons/Overlay.svg');
+	--icon: #{svg('icons/Overlay.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Notifications"]:before {
-	--icon: svg('icons/Notifications.svg');
+	--icon: #{svg('icons/Notifications.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Keybinds"]:before {
-	--icon: svg('icons/Keybinds.svg');
+	--icon: #{svg('icons/Keybinds.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="GameActivity"]:before {
-	--icon: svg('icons/Game Activity.svg');
+	--icon: #{svg('icons/Game Activity.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="TextnImages"]:before {
-	--icon: svg('icons/Text %26 Images.svg');
+	--icon: #{svg('icons/Text %26 Images.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Appearance"]:before {
-	--icon: svg('icons/Appearance.svg');
+	--icon: #{svg('icons/Appearance.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="StreamerMode"]:before {
-	--icon: svg('icons/Streamer Mode.svg');
+	--icon: #{svg('icons/Streamer Mode.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Language"]:before {
-	--icon: svg('icons/Language.svg');
+	--icon: #{svg('icons/Language.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Linux"]:before,
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Windows"]:before {
-	--icon: svg('icons/Windows Settings.svg');
+	--icon: #{svg('icons/Windows Settings.svg')};
 }
 
 
 /* Powercord */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-general"]:before {
-	--icon: svg('icons/General Settings.svg');
+	--icon: #{svg('icons/General Settings.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-moduleManager-plugins"]:before {
-	--icon: svg('icons/Plugins.svg');
+	--icon: #{svg('icons/Plugins.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-moduleManager-themes"]:before {
-	--icon: svg('icons/Themes.svg');
+	--icon: #{svg('icons/Themes.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-updater"]:before {
-	--icon: svg('icons/Updater.svg');
+	--icon: #{svg('icons/Updater.svg')};
 }
 
 
 /* Powercord Plugins */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-clickableEdits"]:before {
-	--icon: svg('icons/clickableedits-PLUGIN.svg');
+	--icon: #{svg('icons/clickableedits-PLUGIN.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-spotify"]:before {
-	--icon: svg('icons/spotify-PLUGIN.svg');
+	--icon: #{svg('icons/spotify-PLUGIN.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-emojiUtility"]:before {
-	--icon: svg('icons/emojiutility-PLUGIN.svg');
+	--icon: #{svg('icons/emojiutility-PLUGIN.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="undertale-dialog-generator"]:before {
-	--icon: svg('icons/undertaledialogue-PLUGIN.svg');
+	--icon: #{svg('icons/undertaledialogue-PLUGIN.svg')};
 	flex-shrink:0;
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="bdCompat"]:before {
-	--icon: svg('icons/bdcompat-PLUGIN.svg');
+	--icon: #{svg('icons/bdcompat-PLUGIN.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="dice-command"]:before {
@@ -175,24 +175,24 @@
 
 /* Extras Panel */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="changelog"]:before {
-	--icon: svg('icons/Change Log.svg');
+	--icon: #{svg('icons/Change Log.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="pc-labs"]:before {
-	--icon: svg('icons/Powercord Labs.svg');
+	--icon: #{svg('icons/Powercord Labs.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="Experiments"]:before {
-	--icon: svg('icons/Experiments.svg');
+	--icon: #{svg('icons/Experiments.svg')};
 }
 
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="DeveloperOptions"]:before {
-	--icon: svg('icons/Develpoer Options.svg');
+	--icon: #{svg('icons/Develpoer Options.svg')};
 }
 
 
 /* Logout */
 .sidebar-CFHs9e .item-PXvHYJ[data-item-id="logout"]:before {
-    --icon: svg('icons/Log Out.svg');
+    --icon: #{svg('icons/Log Out.svg')};
     --settings-icon-color: #F04747;
 }
