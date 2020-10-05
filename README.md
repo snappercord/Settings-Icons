@@ -1,5 +1,5 @@
 # Settings List Icons
-A discord theme compatible with most other themes made for [Powercord](https://powercord.dev). Adds neat looking icons to the settings menu (works well with [this snippet](https://discord.com/channels/538759280057122817/755005803303403570/762067626942791680) on the powercord [discord server](https://discord.gg/nFRHhDk)). [Adding your plugin](#Add%20an%20icon%20for%20your%20plugin)
+A discord theme compatible with most other themes made for [Powercord](https://powercord.dev). Adds neat looking icons to the settings menu (works well with [this snippet](https://discord.com/channels/538759280057122817/755005803303403570/762067626942791680) on the powercord [discord server](https://discord.gg/nFRHhDk)). [Adding your plugin](#add-an-icon-for-your-plugin)
 
 ## Installation
 Head over to your themes folder, open a command prompt / powershell / terminal / or git bash and enter the following:
