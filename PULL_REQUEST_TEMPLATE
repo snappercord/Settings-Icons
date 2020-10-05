@@ -1,4 +1,5 @@
 Icon Rules:
+
 - Format: follow existing icon format and styles. Add file to repo, don't use `url`.
 - Type: SVG/Vector image (don't cheat; use an actual one, not a bitmap fill).
 - Size: 18x18 (if non square icon center then flatten on a square and fix the fill).
