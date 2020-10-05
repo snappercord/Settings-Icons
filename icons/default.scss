@@ -1,33 +1,33 @@
-@import "mixins";
+@import "util/mixins";
 
 
-@include icon(MyAccount, "./icons/default/account.svg");
-@include icon(PrivacynSafety, "./icons/default/privacy-saftey.svg");
-@include icon(AuthorizedApps, "./icons/default/authorized-apps.svg");
-@include icon(Connections, "./icons/default/connections.svg");
-@include icon(Billing, "./icons/default/billing.svg");
+@include icon(MyAccount, "./default/account.svg");
+@include icon(PrivacynSafety, "./default/privacy-saftey.svg");
+@include icon(AuthorizedApps, "./default/authorized-apps.svg");
+@include icon(Connections, "./default/connections.svg");
+@include icon(Billing, "./default/billing.svg");
 
 /* Extra User Settings */
-@include icon(DiscordNitro, "./icons/default/subscriptions.svg", var(--settings-subscriptions));
-@include icon(LibraryInventory, "./icons/default/gift-inventory.svg");
-@include icon(NitroServerBoost, "./icons/default/server-boost.svg");
-@include icon(HypesquadOnline, "./icons/default/hypesquad.svg", var(--settings-hypesquad));
+@include icon(DiscordNitro, "./default/subscriptions.svg", var(--settings-subscriptions));
+@include icon(LibraryInventory, "./default/gift-inventory.svg");
+@include icon(NitroServerBoost, "./default/server-boost.svg");
+@include icon(HypesquadOnline, "./default/hypesquad.svg", var(--settings-hypesquad));
 
 /* App Settings */
-@include icon(VoicenVideo, "./icons/default/voice-video.svg");
-@include icon(Overlay, "./icons/default/overlay.svg");
-@include icon(Notifications, "./icons/default/notifications.svg");
-@include icon(Keybinds, "./icons/default/keybinds.svg");
-@include icon(GameActivity, "./icons/default/game-activity.svg");
-@include icon(TextnImages, "./icons/default/text-images.svg");
-@include icon(Appearance, "./icons/default/appearance.svg");
-@include icon(StreamerMode, "./icons/default/streamer-mode.svg");
-@include icon(Language, "./icons/default/language.svg");
-@include icon(Linux, "./icons/default/os-settings.svg");
-@include icon(Windows, "./icons/default/os-settings.svg");
+@include icon(VoicenVideo, "./default/voice-video.svg");
+@include icon(Overlay, "./default/overlay.svg");
+@include icon(Notifications, "./default/notifications.svg");
+@include icon(Keybinds, "./default/keybinds.svg");
+@include icon(GameActivity, "./default/game-activity.svg");
+@include icon(TextnImages, "./default/text-images.svg");
+@include icon(Appearance, "./default/appearance.svg");
+@include icon(StreamerMode, "./default/streamer-mode.svg");
+@include icon(Language, "./default/language.svg");
+@include icon(Linux, "./default/os-settings.svg");
+@include icon(Windows, "./default/os-settings.svg");
 
 /* Extras Panel */
-@include icon(changelog, "./icons/default/changelog.svg");
+@include icon(changelog, "./default/changelog.svg");
 
 /* Logout */
-@include icon(logout, "./icons/default/logout.svg", var(--settings-logout));
+@include icon(logout, "./default/logout.svg", var(--settings-logout));

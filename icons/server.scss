@@ -1,34 +1,34 @@
-@import "mixins";
+@import "util/mixins";
 
 
-@include icon(OVERVIEW, "./icons/server/overview.svg");
-@include icon(ROLES, "./icons/server/roles.svg");
-@include icon(EMOJI, "./icons/server/emoji.svg");
-@include icon(MODERATION, "./icons/server/moderation.svg");
-@include icon(AUDIT_LOG, "./icons/server/audit-log.svg");
-@include icon(INTEGRATIONS, "./icons/server/integrations.svg");
-@include icon(WIDGET, "./icons/server/widget.svg");
-@include icon(GUILD_TEMPLATES, "./icons/server/templates.svg");
+@include icon(OVERVIEW, "./server/overview.svg");
+@include icon(ROLES, "./server/roles.svg");
+@include icon(EMOJI, "./server/emoji.svg");
+@include icon(MODERATION, "./server/moderation.svg");
+@include icon(AUDIT_LOG, "./server/audit-log.svg");
+@include icon(INTEGRATIONS, "./server/integrations.svg");
+@include icon(WIDGET, "./server/widget.svg");
+@include icon(GUILD_TEMPLATES, "./server/templates.svg");
 
 /* Community */
-@include icon(COMMUNITY, "./icons/server/community.svg");
-@include icon(ANALYTICS, "./icons/server/analytics.svg");
-@include icon(PARTNER, "./icons/server/partner.svg");
-@include icon(DISCOVERY, "./icons/server/discovery.svg");
-@include icon(COMMUNITY_WELCOME, "./icons/server/community-welcome.svg");
+@include icon(COMMUNITY, "./server/community.svg");
+@include icon(ANALYTICS, "./server/analytics.svg");
+@include icon(PARTNER, "./server/partner.svg");
+@include icon(DISCOVERY, "./server/discovery.svg");
+@include icon(COMMUNITY_WELCOME, "./server/community-welcome.svg");
 
 /* Boosting */
-@include icon(GUILD_PREMIUM, "./icons/server/premium.svg", var(--settings-guild-premium));
-@include icon_alt(GUILD_PREMIUM, "./icons/server/premium.svg");
+@include icon(GUILD_PREMIUM, "./server/premium.svg", var(--settings-guild-premium));
+@include icon_alt(GUILD_PREMIUM, "./server/premium.svg");
 
 /* User Management */
-@include icon(MEMBERS, "./icons/server/members.svg");
-@include icon(INSTANT_INVITES, "./icons/server/instant-invites.svg");
-@include icon(BANS, "./icons/server/bans.svg");
+@include icon(MEMBERS, "./server/members.svg");
+@include icon(INSTANT_INVITES, "./server/instant-invites.svg");
+@include icon(BANS, "./server/bans.svg");
 
 // Delete
-@include icon(DELETE, "./icons/server/delete.svg", var(--settings-guild-delete));
-@include icon_alt(DELETE, "./icons/server/delete.svg");
+@include icon(DELETE, "./server/delete.svg", var(--settings-guild-delete));
+@include icon_alt(DELETE, "./server/delete.svg");
 
 /*Channel Tab*/
-@include icon(PERMISSIONS, "./icons/server/channel-permissions.svg");
+@include icon(PERMISSIONS, "./server/channel-permissions.svg");

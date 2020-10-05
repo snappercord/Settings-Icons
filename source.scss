@@ -1,7 +1,7 @@
-@import "icons-default";
-@import "icons-server";
-@import "icons-powercord";
-@import "icons-plugin";
+@import "icons/default";
+@import "icons/server";
+@import "icons/powercord";
+@import "icons/plugin";
 
 /* this code was inspired by https://github.com/xcruxiex, i edited the code and made it powercord friendly*/
 
@@ -47,7 +47,7 @@
     background: var(--settings-icon-color);
     -webkit-mask: var(--icon) center/contain no-repeat;
     mask: var(--icon) center/contain no-repeat;
-    --icon: #{svg("./icons/default.svg")};
+    --icon: #{svg("./icons/plugin/default.svg")};
     flex-shrink: 0;
   }
 }
