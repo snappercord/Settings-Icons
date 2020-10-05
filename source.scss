@@ -13,6 +13,8 @@
   --settings-hypesquad: #fbb848;
   --settings-logout: #f04747;
 
+  --settings-alt-focused: white;
+
   --settings-guild-premium: #80a6ff;
   --settings-guild-delete: #f04747;
 }
@@ -23,12 +25,14 @@
   --settings-hypesquad: #fbb848;
   --settings-logout: #f04747;
 
+  --settings-alt-focused: white;
+
   --settings-guild-premium: #80a6ff;
   --settings-guild-delete: #f04747;
 }
 
 /* Layout */
-.side-8zPYf6 > .item-PXvHYJ,
+.side-8zPYf6 > .item-PXvHYJ:not(.role-3wi9Tf),
 .sidebar-CFHs9e .ui-tab-bar-item {
   display: flex;
   align-items: center;

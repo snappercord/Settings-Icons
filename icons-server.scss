@@ -8,7 +8,7 @@
 @include icon(AUDIT_LOG, "./icons/server/audit-log.svg");
 @include icon(INTEGRATIONS, "./icons/server/integrations.svg");
 @include icon(WIDGET, "./icons/server/widget.svg");
-@include icon(GUILD_TEMPLATES, "./icons/server/guild-templates.svg");
+@include icon(GUILD_TEMPLATES, "./icons/server/templates.svg");
 
 /* Community */
 @include icon(COMMUNITY, "./icons/server/community.svg");
@@ -18,8 +18,8 @@
 @include icon(COMMUNITY_WELCOME, "./icons/server/community-welcome.svg");
 
 /* Boosting */
-@include icon(GUILD_PREMIUM, "./icons/server/guild-premium.svg", var(--settings-guild-premium));
-@include icon_alt(GUILD_PREMIUM, "./icons/server/guild-premium.svg");
+@include icon(GUILD_PREMIUM, "./icons/server/premium.svg", var(--settings-guild-premium));
+@include icon_alt(GUILD_PREMIUM, "./icons/server/premium.svg");
 
 /* User Management */
 @include icon(MEMBERS, "./icons/server/members.svg");
@@ -31,4 +31,4 @@
 @include icon_alt(DELETE, "./icons/server/delete.svg");
 
 /*Channel Tab*/
-@include icon(PERMISSIONS, "./icons/server/perms.svg");
+@include icon(PERMISSIONS, "./icons/server/channel-permissions.svg");
