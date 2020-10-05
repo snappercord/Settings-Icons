@@ -1,0 +1,16 @@
+@mixin icon($item_id, $path, $color: black) {
+    .side-8zPYf6 > .item-PXvHYJ[data-item-id="#{$item-id}"]::before {
+        --icon: #{svg($path)};
+
+        @if ($color != black) {
+            --settings-icon-color: #{$color};
+        }
+    };
+}
+
+@mixin icon_alt($item_id, $path) {
+    .side-8zPYf6 > .item-PXvHYJ[data-item-id="#{$item-id}"][style*="color: rgb(255, 255, 255)"]::before {
+        --icon: #{svg($path)};
+        --settings-icon-color: #fff;
+    }
+}

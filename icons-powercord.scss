@@ -1,16 +1,12 @@
-.side-8zPYf6 > .item-PXvHYJ {
-    &[data-item-id="pc-general"]:before {               --icon: #{svg('./icons/powercord/general.svg')}; }
+@import "mixins";
 
-    &[data-item-id="pc-moduleManager-plugins"]:before { --icon: #{svg('./icons/powercord/plugins.svg')}; }
 
-    &[data-item-id="pc-moduleManager-themes"]:before {  --icon: #{svg('./icons/powercord/themes.svg')}; }
+@include icon(pc-general, "./icons/powercord/general.svg");
+@include icon(pc-moduleManager-plugins, "./icons/powercord/plugins.svg");
+@include icon(pc-moduleManager-themes, "./icons/powercord/themes.svg");
+@include icon(pc-updater, "./icons/powercord/updater.svg");
 
-    &[data-item-id="pc-updater"]:before {               --icon: #{svg('./icons/powercord/updater.svg')}; }
-
-    /* Extras Panel */
-    &[data-item-id="pc-labs"]:before {                  --icon: #{svg('./icons/powercord/labs.svg')}; }
-
-    &[data-item-id="Experiments"]:before {              --icon: #{svg('./icons/powercord/experiments.svg')}; }
-
-    &[data-item-id="DeveloperOptions"]:before {         --icon: #{svg('./icons/powercord/developer.svg')}; }
-}
+/* Extras Panel */
+@include icon(pc-labs, "./icons/powercord/labs.svg");
+@include icon(Experiments, "./icons/powercord/experiments.svg");
+@include icon(DeveloperOptions, "./icons/powercord/developer.svg");

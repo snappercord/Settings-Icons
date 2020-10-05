@@ -1,49 +1,52 @@
-.side-8zPYf6 > .item-PXvHYJ {
-    &[data-item-id="pc-clickableEdits"]:before {          --icon: #{svg('./icons/plugin/clickable-edits.svg')}; }
+@import "mixins";
 
-    &[data-item-id="pc-spotify"]:before {                 --icon: #{svg('./icons/plugin/spotify.svg')}; }
 
-    &[data-item-id="pc-emojiUtility"]:before {            --icon: #{svg('./icons/plugin/emojiutility.svg')}; }
+@include icon(pc-general, "./icons/powercord/general.svg");
 
-    &[data-item-id="undertale-dialog-generator"]:before { --icon: #{svg('./icons/plugin/undertaledialogue.svg')}; }
+@include icon(pc-clickableEdits, "./icons/plugin/clickable-edits.svg");
 
-    &[data-item-id="bdCompat"]:before {                   --icon: #{svg('./icons/plugin/bdcompat.svg')}; }
+@include icon(pc-spotify, "./icons/plugin/spotify.svg");
 
-    &[data-item-id="dice-command"]:before {               --icon: #{svg('./icons/plugin/dice-command.svg')}; }
+@include icon(pc-emojiUtility, "./icons/plugin/emojiutility.svg");
 
-    &[data-item-id="relaunch"]:before {                   --icon: #{svg('./icons/plugin/relaunch.svg')}; }
+@include icon(undertale-dialog-generator, "./icons/plugin/undertaledialogue.svg");
 
-    &[data-item-id="ian-settings"]:before {               --icon: #{svg('./icons/plugin/inappnotifs.svg')}; }
+@include icon(bdCompat, "./icons/plugin/bdcompat.svg");
 
-    &[data-item-id="alias"]:before {                      --icon: #{svg('./icons/plugin/alias.svg')}; }
+@include icon(dice-command, "./icons/plugin/dice-command.svg");
 
-    &[data-item-id="game-activity-toggle"]:before {       --icon: #{svg('./icons/plugin/gameactivitytoggle.svg')}; }
+@include icon(relaunch, "./icons/plugin/relaunch.svg");
 
-    &[data-item-id="itc-settings"]:before {               --icon: #{svg('./icons/plugin/imageclipboard.svg')}; }
+@include icon(ian-settings, "./icons/plugin/inappnotifs.svg");
 
-    &[data-item-id="JSSnippets"]:before {                 --icon: #{svg('./icons/plugin/js-snippets.svg')}; }
+@include icon(alias, "./icons/plugin/alias.svg");
 
-    &[data-item-id="mention-count"]:before {              --icon: #{svg('./icons/plugin/mentioncount.svg')}; }
+@include icon(game-activity-toggle, "./icons/plugin/gameactivitytoggle.svg");
 
-    &[data-item-id="multitask"]:before {                  --icon: #{svg('./icons/plugin/multitask.svg')}; }
+@include icon(itc-settings, "./icons/plugin/imageclipboard.svg");
 
-    &[data-item-id="pc-hastebin"]:before {                --icon: #{svg('./icons/plugin/hastebin.svg')}; }
+@include icon(JSSnippets, "./icons/plugin/js-snippets.svg");
 
-    &[data-item-id="powercord-jingle"]:before {           --icon: #{svg('./icons/plugin/startupsound.svg')}; }
+@include icon(mention-count, "./icons/plugin/mentioncount.svg");
 
-    &[data-item-id="powercord-message-tooltips"]:before { --icon: #{svg('./icons/plugin/messagetooltips.svg')}; }
+@include icon(multitask, "./icons/plugin/multitask.svg");
 
-    &[data-item-id="quick-search"]:before {               --icon: #{svg('./icons/plugin/quicksearch.svg')}; }
+@include icon(pc-hastebin, "./icons/plugin/hastebin.svg");
 
-    &[data-item-id="smart-typers"]:before {               --icon: #{svg('./icons/plugin/smarttypers.svg')}; }
+@include icon(powercord-jingle, "./icons/plugin/startupsound.svg");
 
-    &[data-item-id="theme-toggler"]:before {              --icon: #{svg('./icons/plugin/themetoggler.svg')}; }
+@include icon(powercord-message-tooltips, "./icons/plugin/messagetooltips.svg");
 
-    &[data-item-id="total-members"]:before {              --icon: #{svg('./icons/plugin/totalmembers.svg')}; }
+@include icon(quick-search, "./icons/plugin/quicksearch.svg");
 
-    &[data-item-id="user-details"]:before {               --icon: #{svg('./icons/plugin/userdetails.svg')}; }
+@include icon(smart-typers, "./icons/plugin/smarttypers.svg");
 
-    &[data-item-id="better-quoter"]:before {              --icon: #{svg('./icons/plugin/betterquoter.svg')}; }
+@include icon(theme-toggler, "./icons/plugin/themetoggler.svg");
 
-    &[data-item-id="bot-tag-settings"]:before {           --icon: #{svg('./icons/plugin/usertags.svg')}; }
-}
+@include icon(total-members, "./icons/plugin/totalmembers.svg");
+
+@include icon(user-details, "./icons/plugin/userdetails.svg");
+
+@include icon(better-quoter, "./icons/plugin/betterquoter.svg");
+
+@include icon(bot-tag-settings, "./icons/plugin/usertags.svg");
