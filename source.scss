@@ -47,7 +47,7 @@
     background: var(--settings-icon-color);
     -webkit-mask: var(--icon) center/contain no-repeat;
     mask: var(--icon) center/contain no-repeat;
-    --icon: #{svg("./icons/default.svg")};
+    --icon: #{svg("./icons/plugin/default.svg")};
     flex-shrink: 0;
   }
 }
