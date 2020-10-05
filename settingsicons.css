@@ -1,22 +1,26 @@
 @import url('https://snapperito.github.io/Settings-Icons/source.css');
 
 .theme-dark {
-    --settings-icon-color: white;
+  --settings-icon-color: white;
 
-    --settings-subscriptions: #80a6ff;
-    --settings-hypesquad: #fbb848;
-    --settings-logout: #f04747;
+  --settings-subscriptions: #80a6ff;
+  --settings-hypesquad: #fbb848;
+  --settings-logout: #f04747;
 
-    --settings-guild-premium: #80a6ff;
-    --settings-guild-delete: #f04747;
+  --settings-alt-focused: white;
+
+  --settings-guild-premium: #80a6ff;
+  --settings-guild-delete: #f04747;
 }
 .theme-light {
-    --settings-icon-color: #4f5660;
+  --settings-icon-color: #4f5660;
 
-    --settings-subscriptions: #80a6ff;
-    --settings-hypesquad: #fbb848;
-    --settings-logout: #f04747;
+  --settings-subscriptions: #80a6ff;
+  --settings-hypesquad: #fbb848;
+  --settings-logout: #f04747;
 
-    --settings-guild-premium: #80a6ff;
-    --settings-guild-delete: #f04747;
+  --settings-alt-focused: white;
+
+  --settings-guild-premium: #80a6ff;
+  --settings-guild-delete: #f04747;
 }
