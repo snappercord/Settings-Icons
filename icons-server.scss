@@ -29,3 +29,6 @@
 // Delete
 @include icon(DELETE, "./icons/server/delete.svg", var(--settings-guild-delete));
 @include icon_alt(DELETE, "./icons/server/delete.svg");
+
+/*Channel Tab*/
+@include icon(PERMISSIONS, "./icons/server/perms.svg");
