@@ -1,49 +1,33 @@
-.side-8zPYf6 > .item-PXvHYJ {
-    /* User Settings */
-    &[data-item-id="MyAccount"]:before {        --icon: #{svg('./icons/default/account.svg')}; }
+@import "mixins";
 
-    &[data-item-id="PrivacynSafety"]:before {   --icon: #{svg('./icons/default/privacy-saftey.svg')}; }
 
-    &[data-item-id="AuthorizedApps"]:before {   --icon: #{svg('./icons/default/authorized-apps.svg')}; }
-    
-    &[data-item-id="Connections"]:before {      --icon: #{svg('./icons/default/connections.svg')}; }
+@include icon(MyAccount, "./icons/default/account.svg");
+@include icon(PrivacynSafety, "./icons/default/privacy-saftey.svg");
+@include icon(AuthorizedApps, "./icons/default/authorized-apps.svg");
+@include icon(Connections, "./icons/default/connections.svg");
+@include icon(Billing, "./icons/default/billing.svg");
 
-    &[data-item-id="Billing"]:before {          --icon: #{svg('./icons/default/billing.svg')}; }
+/* Extra User Settings */
+@include icon(DiscordNitro, "./icons/default/subscriptions.svg", var(--settings-subscriptions));
+@include icon(LibraryInventory, "./icons/default/gift-inventory.svg");
+@include icon(NitroServerBoost, "./icons/default/server-boost.svg");
+@include icon(HypesquadOnline, "./icons/default/hypesquad.svg", var(--settings-hypesquad));
 
-    /* Extra user settings */
-    &[data-item-id="DiscordNitro"]:before {     --icon: #{svg('./icons/default/subscriptions.svg')}; --settings-icon-color: var(--settings-subscriptions); }
+/* App Settings */
+@include icon(VoicenVideo, "./icons/default/voice-video.svg");
+@include icon(Overlay, "./icons/default/overlay.svg");
+@include icon(Notifications, "./icons/default/notifications.svg");
+@include icon(Keybinds, "./icons/default/keybinds.svg");
+@include icon(GameActivity, "./icons/default/game-activity.svg");
+@include icon(TextnImages, "./icons/default/text-images.svg");
+@include icon(Appearance, "./icons/default/appearance.svg");
+@include icon(StreamerMode, "./icons/default/streamer-mode.svg");
+@include icon(Language, "./icons/default/language.svg");
+@include icon(Linux, "./icons/default/os-settings.svg");
+@include icon(Windows, "./icons/default/os-settings.svg");
 
-    &[data-item-id="LibraryInventory"]:before { --icon: #{svg('./icons/default/gift-inventory.svg')}; }
+/* Extras Panel */
+@include icon(changelog, "./icons/default/changelog.svg");
 
-    &[data-item-id="NitroServerBoost"]:before { --icon: #{svg('./icons/default/server-boost.svg')}; }
-
-    &[data-item-id="HypesquadOnline"]:before {  --icon: #{svg('./icons/default/hypesquad.svg')};     --settings-icon-color: var(--settings-hypesquad); }
-
-    /* App settings */
-    &[data-item-id="VoicenVideo"]:before {      --icon: #{svg('./icons/default/voice-video.svg')}; }
-
-    &[data-item-id="Overlay"]:before {          --icon: #{svg('./icons/default/overlay.svg')}; }
-
-    &[data-item-id="Notifications"]:before {    --icon: #{svg('./icons/default/notifications.svg')}; }
-
-    &[data-item-id="Keybinds"]:before {         --icon: #{svg('./icons/default/keybinds.svg')}; }
-
-    &[data-item-id="GameActivity"]:before {     --icon: #{svg('./icons/default/game-activity.svg')}; }
-
-    &[data-item-id="TextnImages"]:before {      --icon: #{svg('./icons/default/text-images.svg')}; }
-
-    &[data-item-id="Appearance"]:before {       --icon: #{svg('./icons/default/appearance.svg')}; }
-
-    &[data-item-id="StreamerMode"]:before {     --icon: #{svg('./icons/default/streamer-mode.svg')}; }
-
-    &[data-item-id="Language"]:before {         --icon: #{svg('./icons/default/language.svg')}; }
-
-    &[data-item-id="Linux"]:before,
-    &[data-item-id="Windows"]:before {          --icon: #{svg('./icons/default/os-settings.svg')}; }
-
-    /* Extras Panel */
-    &[data-item-id="changelog"]:before {        --icon: #{svg('./icons/default/changelog.svg')}; }
-    
-    /* Logout */
-    &[data-item-id="logout"]:before {           --icon: #{svg('./icons/default/logout.svg')};        --settings-icon-color: var(--settings-logout); }
-}
+/* Logout */
+@include icon(logout, "./icons/default/logout.svg", var(--settings-logout));

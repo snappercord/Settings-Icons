@@ -34,7 +34,7 @@ Resources:
 
 ### Credits
 - [Snapperito](https://github.com/Snapperito): Idea, base style/layout css, all regular icons, some plugin icons, maintenance
-- [botato](https://github.com/botatooo): All server settings icons
+- [botato](https://github.com/botatooo): All server settings icons, maintenance
 - [MulverineX](https://github.com/MulverineX): 16+ plugin icons (~half custom made from Packs), maintenance
 - [AAGaming](https://github.com/ADoesGit): Github Actions script to build files for performance.
 - Powercord Community: Fixing CSS & Contributing icons for their plugins
