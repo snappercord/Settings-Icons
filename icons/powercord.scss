@@ -1,12 +1,12 @@
 @import "util-mixins";
 
 
-@include icon(pc-general, "powercord/general.svg");
-@include icon(pc-moduleManager-plugins, "powercord/plugins.svg");
-@include icon(pc-moduleManager-themes, "powercord/themes.svg");
-@include icon(pc-updater, "powercord/updater.svg");
+@include icon(pc-general, "./powercord/general.svg");
+@include icon(pc-moduleManager-plugins, "./powercord/plugins.svg");
+@include icon(pc-moduleManager-themes, "./powercord/themes.svg");
+@include icon(pc-updater, "./powercord/updater.svg");
 
 /* Extras Panel */
-@include icon(pc-labs, "powercord/labs.svg");
-@include icon(Experiments, "powercord/experiments.svg");
-@include icon(DeveloperOptions, "powercord/developer.svg");
+@include icon(pc-labs, "./powercord/labs.svg");
+@include icon(Experiments, "./powercord/experiments.svg");
+@include icon(DeveloperOptions, "./powercord/developer.svg");
