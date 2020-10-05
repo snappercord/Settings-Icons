@@ -4,7 +4,7 @@ A discord theme compatible with most other themes made for [Powercord](https://p
 ## Installation
 Head over to your themes folder, open a command prompt / powershell / terminal / or git bash and enter the following:
 ```
-git clone https://github.com/Snapperito/Dark-Discord
+https://github.com/Snapperito/Settings-Icons
 ```
 
 ## Preview
