@@ -1,54 +1,52 @@
 @import "util/mixins";
 
 
-@include icon(pc-general, "/powercord/general.svg");
+@include icon(pc-clickableEdits, "plugin/clickable-edits.svg");
 
-@include icon(pc-clickableEdits, "/plugin/clickable-edits.svg");
+@include icon(pc-spotify, "plugin/spotify.svg");
 
-@include icon(pc-spotify, "/plugin/spotify.svg");
+@include icon(pc-emojiUtility, "plugin/emojiutility.svg");
 
-@include icon(pc-emojiUtility, "/plugin/emojiutility.svg");
+@include icon(undertale-dialog-generator, "plugin/undertaledialogue.svg");
 
-@include icon(undertale-dialog-generator, "/plugin/undertaledialogue.svg");
+@include icon(bdCompat, "plugin/bdcompat.svg");
 
-@include icon(bdCompat, "/plugin/bdcompat.svg");
+@include icon(dice-command, "plugin/dice-command.svg");
 
-@include icon(dice-command, "/plugin/dice-command.svg");
+@include icon(relaunch, "plugin/relaunch.svg");
 
-@include icon(relaunch, "/plugin/relaunch.svg");
+@include icon(ian-settings, "plugin/inappnotifs.svg");
 
-@include icon(ian-settings, "/plugin/inappnotifs.svg");
+@include icon(alias, "plugin/alias.svg");
 
-@include icon(alias, "/plugin/alias.svg");
+@include icon(game-activity-toggle, "plugin/gameactivitytoggle.svg");
 
-@include icon(game-activity-toggle, "/plugin/gameactivitytoggle.svg");
+@include icon(itc-settings, "plugin/imageclipboard.svg");
 
-@include icon(itc-settings, "/plugin/imageclipboard.svg");
+@include icon(JSSnippets, "plugin/js-snippets.svg");
 
-@include icon(JSSnippets, "/plugin/js-snippets.svg");
+@include icon(mention-count, "plugin/mentioncount.svg");
 
-@include icon(mention-count, "/plugin/mentioncount.svg");
+@include icon(multitask, "plugin/multitask.svg");
 
-@include icon(multitask, "/plugin/multitask.svg");
+@include icon(pc-hastebin, "plugin/hastebin.svg");
 
-@include icon(pc-hastebin, "/plugin/hastebin.svg");
+@include icon(powercord-jingle, "plugin/startupsound.svg");
 
-@include icon(powercord-jingle, "/plugin/startupsound.svg");
+@include icon(powercord-message-tooltips, "plugin/messagetooltips.svg");
 
-@include icon(powercord-message-tooltips, "/plugin/messagetooltips.svg");
+@include icon(quick-search, "plugin/quicksearch.svg");
 
-@include icon(quick-search, "/plugin/quicksearch.svg");
+@include icon(smart-typers, "plugin/smarttypers.svg");
 
-@include icon(smart-typers, "/plugin/smarttypers.svg");
+@include icon(theme-toggler, "plugin/themetoggler.svg");
 
-@include icon(theme-toggler, "/plugin/themetoggler.svg");
+@include icon(total-members, "plugin/totalmembers.svg");
 
-@include icon(total-members, "/plugin/totalmembers.svg");
+@include icon(user-details, "plugin/userdetails.svg");
 
-@include icon(user-details, "/plugin/userdetails.svg");
+@include icon(better-quoter, "plugin/betterquoter.svg");
 
-@include icon(better-quoter, "/plugin/betterquoter.svg");
+@include icon(bot-tag-settings, "plugin/usertags.svg");
 
-@include icon(bot-tag-settings, "/plugin/usertags.svg");
-
-@include icon(weather, "/plugin/weather.svg");
+@include icon(weather, "plugin/weather.svg");
