@@ -7,6 +7,7 @@ Head over to your themes folder, open a command prompt / powershell / terminal /
 https://github.com/Snapperito/Settings-Icons
 ```
 or
+
 Head into your Custom Css tab and enter the following:
 ```
 @import url('https://snapperito.github.io/Settings-Icons/source.css');
