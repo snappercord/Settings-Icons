@@ -6,12 +6,6 @@ Head over to your themes folder, open a command prompt / powershell / terminal /
 ```
 https://github.com/Snapperito/Settings-Icons
 ```
-**or**
-
-Head into your Custom Css tab and enter the following:
-```
-@import url('https://snapperito.github.io/Settings-Icons/source.css');
-```
 
 ## Preview
 ![Preview](https://cdn.discordapp.com/attachments/756986970231668847/761772295726694420/unknown.png)
