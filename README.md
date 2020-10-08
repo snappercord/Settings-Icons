@@ -1,6 +1,8 @@
 # Settings List Icons ![.github/workflows/sassbuild.yml](https://github.com/Snapperito/Settings-Icons/workflows/.github/workflows/sassbuild.yml/badge.svg?branch=main&event=push)
 A discord theme compatible with most other themes made for [Powercord](https://powercord.dev). Adds neat looking icons to the settings menu (works well with [this snippet](https://discord.com/channels/538759280057122817/755005803303403570/762067626942791680) on the powercord [discord server](https://discord.gg/nFRHhDk)). [Adding your plugin](#add-an-icon-for-your-plugin)
 
+Want to use on the web version of discord or BetterDiscord/BandagedBD? There's a [port](https://github.com/MulverineX/legacy-settings-icons)! (Server settings (currently) not ported, plugin icons N/A)
+
 ## Installation
 Head over to your themes folder, open a command prompt / powershell / terminal / or git bash and enter the following:
 ```
