@@ -36,8 +36,8 @@ Resources:
 
 ### Credits
 - [ClearVision BD Theme](https://clearvision.gitlab.io/) ([source](https://github.com/ClearVision/ClearVision-v6/blob/master/src/settings/icons.scss)): Original idea, layout css, icon selection (Material)
-- [Snapperito](https://github.com/Snapperito): Port & Initial Organization, some server icons, maintenance
-- [botato](https://github.com/botatooo): All server settings icons, maintenance
-- [MulverineX](https://github.com/MulverineX): 16+ plugin icons (~half custom made from Packs), maintenance
+- [Snapperito](https://github.com/Snapperito): Port & Initial Organization, maintenance
+- [botato](https://github.com/botatooo): Server settings icon selection, maintenance
+- [MulverineX](https://github.com/MulverineX): Many plugin icon selections (~half custom made from Packs), maintenance
 - [AAGaming](https://github.com/ADoesGit): Github Actions script to build files for performance.
 - Powercord Community: Fixing CSS & Contributing icons for their plugins
