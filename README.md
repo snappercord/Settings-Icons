@@ -20,7 +20,7 @@ Icon Rules:
 - Type: SVG/Vector image (don't cheat; use an actual one, not a bitmap fill).
 - Size: 18x18 (if non square icon center then flatten on a square and fix the fill).
 - Fill: mono color, transparent.
-- Detail: keep detail low, preferably use something the Icon Packs. 
+- Detail: keep detail low, preferably use something from the Icon Packs. 
 - Unique: make sure it isn't the same/similar icon as any other plugin or built-in setting.
 
 Resources:
