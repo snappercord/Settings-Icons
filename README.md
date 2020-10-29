@@ -3,6 +3,8 @@ A discord theme compatible with most other themes made for [Powercord](https://p
 
 Want to use on the web version of discord or BetterDiscord/BandagedBD? There's a [port](https://github.com/MulverineX/legacy-settings-icons)! (Server settings (currently) not ported, plugin icons N/A)
 
+Want icons for languages in codeblocks? Check it out [here](https://github.com/Snapperito/codeblock-icons)
+
 ## Installation
 Head over to your themes folder, open a command prompt / powershell / terminal / or git bash and enter the following:
 ```
