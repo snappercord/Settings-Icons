@@ -1,8 +1,5 @@
 on:
-  push:
-    branches:
-      - main
-
+  push
 
 jobs:
   build_css:
@@ -12,28 +9,23 @@ jobs:
       - name: Checkout source Git branch
         uses: actions/checkout@v2
         with:
-            ref: main
-            fetch-depth: 0
-            submodules: true
-
-      - name: Make destination directory for compiled CSS
-        run: mkdir -vp /tmp/repo-name/assets/css
-
-      - name: Compile CSS from SCSS files
-        uses: ADoesGit/sass-build@master
+            ref: ${{ github.ref }}
+            
+      - name: Compile CSS
+        uses: AAGaming00/sass-build@master
         with:
           source: source.scss
           destination: source.css
-
+      
       - name: Add and Commit changes
         run: |
           git config --local user.email 'action@github.com'
           git config --local user.name 'GitHub Action'
           git add ./source.css
-          git diff-index --quiet HEAD || git commit -m 'Updates compiled CSS files'
+          git diff-index --quiet HEAD || git commit -m 'Updated compiled CSS files'
 
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: ${{ github.ref }}
