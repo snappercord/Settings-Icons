@@ -10,20 +10,33 @@ jobs:
         uses: actions/checkout@v2
         with:
             ref: ${{ github.ref }}
+            fetch-depth: 0
+            submodules: true
             
-      - name: Compile CSS
+      - name: Compile CSS from Default
         uses: AAGaming00/sass-build@master
         with:
-          source: source.scss
-          destination: source.css
+          source: source-default.scss
+          destination: dist-default.css
+      
+      - name: Compile CSS from Alt
+        uses: AAGaming00/sass-build@master
+        with:
+          source: source-alt.scss
+          destination: dist-alt.css
+
+      - name: Build UserCSS
+        run: |
+          node ./build_web.js
       
       - name: Add and Commit changes
         run: |
           git config --local user.email 'action@github.com'
           git config --local user.name 'GitHub Action'
-          git add ./source.css
+          git add ./dist-default.css
+          git add ./dist-alt.css
+          git add ./codeblock-tweaks.user.css
           git diff-index --quiet HEAD || git commit -m 'Updated compiled CSS files'
-
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
