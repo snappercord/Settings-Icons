@@ -1,5 +1,6 @@
 @import "mixins";
 
+
 @include icon(pc-general, "./icons/powercord/general.svg");
 
 @include icon(pc-clickableEdits, "./icons/plugin/clickable-edits.svg");
@@ -8,10 +9,7 @@
 
 @include icon(pc-emojiUtility, "./icons/plugin/emojiutility.svg");
 
-@include icon(
-  undertale-dialog-generator,
-  "./icons/plugin/undertaledialogue.svg"
-);
+@include icon(undertale-dialog-generator, "./icons/plugin/undertaledialogue.svg");
 
 @include icon(bdCompat, "./icons/plugin/bdcompat.svg");
 
