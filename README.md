@@ -1,7 +1,7 @@
 # Settings List Icons ![.github/workflows/sassbuild.yml](https://github.com/Snapperito/Settings-Icons/workflows/.github/workflows/sassbuild.yml/badge.svg?branch=main&event=push)
 A discord theme compatible with most other themes made for [Powercord](https://powercord.dev). Adds neat looking icons to the settings menu (works well with [this snippet](https://discord.com/channels/538759280057122817/755005803303403570/762067626942791680) on the powercord [discord server](https://discord.gg/nFRHhDk)). [Adding your plugin](#add-an-icon-for-your-plugin)
 
-Want to use on the web version of discord or BetterDiscord/BandagedBD? There's a [port](https://github.com/MulverineX/legacy-settings-icons)! (Server settings (currently) not ported, plugin icons N/A)
+Want to use on the web version of discord or BetterDiscord/BandagedBD? There's a [port](https://github.com/MulverineX/legacy-settings-icons)! (Server settings not ported, plugin icons N/A)
 
 Want icons for languages in codeblocks? Check it out [here](https://github.com/Snapperito/codeblock-icons)
 
@@ -40,6 +40,6 @@ Resources:
 - [ClearVision BD Theme](https://clearvision.gitlab.io/) ([source](https://github.com/ClearVision/ClearVision-v6/blob/master/src/settings/icons.scss)): Original idea, layout css, icon selection (Material)
 - [Snapperito](https://github.com/Snapperito): Port & Initial Organization, maintenance
 - [botato](https://github.com/botatooo): Server settings icon selection, maintenance
-- [MulverineX](https://github.com/MulverineX): Many plugin icon selections (~half custom made from Packs), maintenance
+- [MulverineX](https://github.com/MulverineX): Many plugin icon selections (~half custom made from Packs), maintained
 - [AAGaming](https://github.com/ADoesGit): Github Actions script to build files for performance.
 - Powercord Community: Fixing CSS & Contributing icons for their plugins
