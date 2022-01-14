@@ -1,0 +1,161 @@
+:root {
+
+  --icon-size: 20px;
+  --icon-gap: 13px;
+
+  --icon-color: currentColor;
+  --hypesqaud-color: currentColor;
+  --nitro-color: currentColor;
+  --boost-color: currentColor;
+  /* log-out & delete-server */
+  --warning-red: currentColor;
+}
+
+/* user settings */
+
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=my-account-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/my-account.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=profile-customization-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/user-profile.svg);
+}
+.sidebar-nqHbhN .item-3XjbnG[aria-controls*=privacy]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/privacy-%26-safety.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=authorized-apps-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/authorized-apps.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=connections-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/connections.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=discord-nitro-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/discord-nitro.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=nitro-server-boost-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/server-boost.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=subscriptions-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/subscriptions.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=library-inventory-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/gift-inventory.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=billing-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/billing.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=appearance-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/appearance.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=accessibility-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/accessibility.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls*=voice]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/voice-%26-video.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls*=text]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/text-%26-images.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=notifications-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/notifications.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=keybinds-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/keybinds.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=language-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/language.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=linux-tab]::before {
+  --icon: url();
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=windows-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/windows-settings.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=streamer-mode-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/streamer-mode.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=advanced-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/advanced.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=game-activity-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/activity-status.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=overlay-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/game-overlay.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/change-log.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=hypesquad-online-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/hypesquad.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=experiments-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/experiments.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=developer-options-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/developer-options.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=hotspot-options-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/hotspot-options.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=dismissible-content-options-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/dismissable-contents.svg);
+}
+
+.sidebar-nqHbhN .item-3XjbnG[aria-controls=logout-tab]::before {
+  --icon: url(https://raw.githubusercontent.com/snappercord/Settings-Icons/v2/icons/global/user-settings/log-out.svg);
+}
+
+/* setup, !! CONFIG THESE VALUES IN main.css !!*/
+
+
+.item-3XjbnG {
+  display: flex;
+  align-items: center; 
+}
+.sidebar-nqHbhN {
+  width: calc(218px + var(--icon-size) + var(--icon-gap));
+}
+.sidebar-nqHbhN .item-3XjbnG::before {
+  content: "";
+  width: var(--icon-size);
+  height: var(--icon-size);
+  margin-right: var(--icon-gap);
+  background: currentColor;
+  flex-shrink: 0;
+  -webkit-mask: var(--icon) center/contain no-repeat;
+  mask: var(--icon) center/contain no-repeat;
+  flex-shrink: 0;
+  --icon: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgPHBhdGggZmlsbD0iQjlCQkJFIiBkPSJNMTIgMkM2LjQ4NiAyIDIgNi40ODcgMiAxMmMwIDUuNTE1IDQuNDg2IDEwIDEwIDEwczEwLTQuNDg1IDEwLTEwYzAtNS41MTMtNC40ODYtMTAtMTAtMTBabTAgMTYuMjVhMS4yNSAxLjI1IDAgMSAxIDAtMi41IDEuMjUgMS4yNSAwIDAgMSAwIDIuNVptMS00LjM3NVYxNWgtMnYtM2gxYTIgMiAwIDEgMC0yLTJIOGMwLTIuMjA1IDEuNzk1LTQgNC00czQgMS43OTUgNCA0YTQuMDEgNC4wMSAwIDAgMS0zIDMuODc1WiIvPgo8L3N2Zz4K");
+}
+
+/* ty correllan */
+.premiumLabel-V52REm svg {display: none;}
+.icon-3FU6Ir {display: none;}
+
